@@ -1,4 +1,4 @@
-func-gen
+openlss/func-gen
 ========
 
 Generation functions: handles, uuid, etc
