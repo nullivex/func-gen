@@ -1,0 +1,27 @@
+{
+	 "name":				"openlss/func-gen"
+	,"homepage":			"http://openlss.org"
+	,"description":			"Random generation functions"
+	,"license":				"LGPLv2"
+	,"type":				"library"
+	,"keywords": [
+		 "guid"
+		,"uuid"
+		,"unique handle"
+	]
+	,"authors": [
+		 {
+			 "name":		"Bryan Tong"
+			,"email":		"contact@nullivex.com"
+			,"homepage":	"http://bryantong.com"
+		}
+		,{
+			 "name":		"Tony Butler"
+			,"email":		"spudz76@gmail.com"
+			,"homepage":	"http://openlss.org"
+		}
+	]
+	,"require": {
+		"php":	">=5.3.2"
+	}
+}
