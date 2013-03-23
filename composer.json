@@ -2,7 +2,7 @@
 	 "name":				"openlss/func-gen"
 	,"homepage":			"http://openlss.org"
 	,"description":			"Random generation functions"
-	,"license":				"LGPLv2"
+	,"license":				"LGPL-3.0+"
 	,"type":				"library"
 	,"keywords": [
 		 "guid"
