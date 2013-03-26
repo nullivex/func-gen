@@ -17,14 +17,11 @@
  *	You should have received a copy of the 
  *	GNU Lesser General Public License along with OpenLSS.
  *	If not, see <http://www.gnu.org/licenses/>.
-*/
-namespace LSS;
-
+ */
 require_once(dirname(__DIR__).'/vendor/autoload.php');
-require('boot.php');
-ld('/func/gen');
+require('lss_boot.php');
 
-class FuncGenTest extends \PHPUNIT_Framework_TestCase {
+class FuncGenTest extends PHPUNIT_Framework_TestCase {
 
 	public function testGenGUID(){
 		$this->assertEquals(32,strlen(gen_guid()));

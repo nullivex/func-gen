@@ -17,8 +17,7 @@
  *	You should have received a copy of the 
  *	GNU Lesser General Public License along with OpenLSS.
  *	If not, see <http://www.gnu.org/licenses/>.
-*/
-namespace LSS;
+ */
 
 function gen_guid(){
 	if(function_exists('com_create_guid') === true)
