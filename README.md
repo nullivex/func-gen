@@ -7,8 +7,6 @@ Usage
 ----
 
 ```php
-ld('func/gen');
-
 $guid = gen_guid();
 
 $handle = gen_handle();
